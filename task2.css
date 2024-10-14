@@ -1,0 +1,78 @@
+body{
+    background-image: url(photo.jpg);
+    background-size: cover;
+}
+ul li{
+    list-style-type:none;
+   }
+
+.menu-bar
+{
+text-align:center;
+background-color: transparent;
+}
+.menu-bar ul
+{
+   display: inline-flex;
+   color:rgb(253, 253, 252)
+}
+.menu-bar ul li
+{
+    font-family: Impact;
+    font-size: 25px;
+    width: 120px;
+    margin: 5px;
+    padding: 25px;
+
+}
+
+.lets-go-btn{
+    color: floralwhite;
+    background: rgb(227, 26, 26);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 1000;
+    letter-spacing: 5px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-left: -15px; 
+}
+.aa{
+    text-align: center;
+    margin-top: 50px;
+}
+.lets-go-btn:hover{
+    background: rgb(78, 75, 75);
+}
+p{
+    font-family: 'Brush Script MT', cursive;
+    color: white;
+    font-size: 30px;
+    margin-inline-start: 100px;
+    margin-inline-end: 100px;
+    text-align: center;
+    margin-top: 120px;
+}
+.info ul{
+    display: inline-flex;
+    color: rgb(255, 255, 255);
+}
+.info ul li{
+   width: 500px;
+   font-size: 16px;
+}
+.info{
+    margin-top: 0px;
+    text-align: center;
+}
+.contact ul{
+    display: inline-flex;
+    color: rgb(255, 255, 255);
+}
+.contact ul li{
+   font-size: 20px;
+}
+.contact{
+    margin-top: 200px;
+    margin-inline-start: 660px;
+}
